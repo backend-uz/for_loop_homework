@@ -6,6 +6,7 @@ def main(n):
     Returns:
         string: return  answer
     """
-    x = list(range(n))
+    x = str(list(range(n)))
+    j = ','.join(x)
     return x
-print(main(4))
+print(main(3))
