@@ -6,7 +6,12 @@ def main(n):
     Returns:
         string: return  answer
     """
-    x = str(list(range(n)))
-    j = ','.join(x)
-    return x
+    x = (list(range(n)))
+    i = 0
+    list1 = []
+    while i < len(x):
+        list1.append(str(x[i]))
+        i += 1
+    j = ','.join(list1)
+    return j
 print(main(3))
