@@ -7,4 +7,9 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    list1 = []
+    r = range(n)
+    for i in r:
+        list1.append(k)
+    return list1
+print(main(5,3))
