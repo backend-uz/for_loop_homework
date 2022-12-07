@@ -8,5 +8,5 @@ def main(n):
     """
     for i in range(n):
         print(i)
-    return
+    return i
 print(main(9))
