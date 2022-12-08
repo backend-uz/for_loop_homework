@@ -8,7 +8,6 @@ def main(A,B):
         int: return  answer
     """
     r = list(range(A,B+1))
-    i = 0
     s = 0
     for i in r:
         s = s+i
