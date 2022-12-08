@@ -7,4 +7,10 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    r = list(range(A,B+1))
+    i = 0
+    s = 0
+    for i in r:
+        s = s+i
+    return s
+print(main(1,5))
